@@ -1,0 +1,3 @@
+**The Tale of Pizza the Unicorn** is a small companion website to a lightning talk given at the Turing School about breaking the grid when designing for the frontend.
+
+Many non-designers working with the grid for the first time can get psychologically locked into a system that visually only involves rectangles. While everything on your website will technically be sitting within a rectangle... it doesn’t have to look that way. To illustrate some of the ways that developers new to design can break out of the grid, I created a little web story about a unicorn, which you can see for yourself at http://www.katelane.com/pizza. You can also read my blog post about the site/talk at http://k8lane.tumblr.com/post/112847053931/thinking-beyond-rectangles.
