@@ -1,0 +1,71 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Amatic SC', cursive;
+  color: #000;
+  font-size: 2em;
+  background: #64c5fd;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left {
+  float: left;
+  width: 600px;
+}
+
+.left p {
+  padding-top: 200px;
+  padding-left: 200px;
+}
+
+.right {
+  float: right;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.links {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.links ul {
+  list-style-type: none;
+}
+
+.links li {
+  float: left;
+  margin: 20px;
+  text-align: center;
+}
+
+.links li img {
+  border: 5px solid #dd5b2e;
+  border-radius: 100px;
+  width: 105px;
+}
+
+.tiny {
+  font-size: .5em;
+  line-height: 50%;
+}
+
+.note {
+  font-size: .6em;
+  background: #fdfb30;
+  color: #dd5b2e;
+  padding: 5px;
+}

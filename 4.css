@@ -1,0 +1,50 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Amatic SC', cursive;
+  color: #000;
+  font-size: 2.5em;
+  background: #179966;
+  padding: 0;
+  margin: 10px 0 0 200px;
+  background-image: url("images/shield.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.right {
+  float: right;
+  margin-top: 10px;
+  margin-right: 250px;
+}
+
+.center {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: -95px;
+  margin-left: -10px;
+}
+
+.tiny {
+  font-size: .5em;
+  padding: 0;
+  margin: 0;
+}
+
+.tiny a {
+  color: #fdfb30;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.note {
+  font-size: .6em;
+  background: #fdfb30;
+  color: #dd5b2e;
+  padding: 5px;
+}

@@ -1,0 +1,66 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Amatic SC', cursive;
+  color: #000;
+  font-size: 1.8em;
+  background: #64c5fd;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/scene3.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left {
+  float: left;
+  width: 400px;
+}
+
+.left p {
+  padding-top: 5px;
+  padding-left: 50px;
+}
+
+.right {
+  float: right;
+}
+
+.center {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.tiny {
+  font-size: .5em;
+  line-height: 50%;
+}
+
+.note {
+  font-size: .7em;
+  background: #fdfb30;
+  color: #dd5b2e;
+  padding: 5px;
+  margin-top: 225px;
+}
+
+.coinlink {
+  background: #00a76c;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  width: 210px;
+  padding: 2px;
+}
+
+.coinlink:hover {
+  background: #01c982;
+}

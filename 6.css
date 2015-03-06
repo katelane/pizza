@@ -1,0 +1,60 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Amatic SC', cursive;
+  color: #000;
+  font-size: 2em;
+  background: #20ae76;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/scene6.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.left {
+  float: left;
+  width: 25%;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.right {
+  float: right;
+  width: 18%;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.center {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.note {
+  font-size: .6em;
+  background: #fdfb30;
+  color: #dd5b2e;
+  padding: 0 10px;
+}
+
+.the-end {
+  font-size: 3em;
+  color: #64c5fd;
+  margin-bottom: -20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.link:hover {
+  background: #fdfb30;
+  color: #dd5b2e;
+}

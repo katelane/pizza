@@ -1,0 +1,62 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Amatic SC', cursive;
+  color: #000;
+  font-size: 2.5em;
+  background: #20ae76;
+  padding: 0;
+  margin: 0;
+}
+
+.right {
+  float: right;
+  width: 60%;
+  margin-top: 10px;
+}
+
+.right p {
+  margin-top: -20px;
+}
+
+.center {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: -95px;
+}
+
+.tiny {
+  font-size: .5em;
+  padding: 0;
+  margin: 0;
+}
+
+.tiny a {
+  color: #fdfb30;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.note {
+  font-size: .6em;
+  background: #fdfb30;
+  color: #dd5b2e;
+  padding: 5px;
+}
+
+.footer-head {
+  background-image: url("images/wave.png");
+  height: 44px;
+  margin-top: 100px;
+}
+
+footer {
+  background: #127c52;
+  height: 70px;
+  width: 100%;
+}

@@ -1,0 +1,178 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Amatic SC', cursive;
+  color: #000;
+  font-size: 2em;
+  background: #64c5fd;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left {
+  float: left;
+  width: 600px;
+}
+
+.left p {
+  padding-top: 200px;
+  padding-left: 200px;
+}
+
+.right {
+  float: right;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* STYLES PAGE 1 & 1A */
+.header1 {
+  background-image: url("images/banner.png");
+  background-repeat: no-repeat;
+  width: 850px;
+  height: 248px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -50px;
+  padding-top: 15px;
+}
+
+.header1 p {
+  font-size: 2em;
+  -ms-transform: rotate(-5deg); /* IE 9 */
+  -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+  transform: rotate(-5deg);
+}
+
+.hill {
+  padding-top: 50px;
+  float: right;
+  width: 50%;
+  background-image: url("images/hill.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  margin-bottom: -10px;
+}
+
+.green {
+  background: #00a76c;
+  width: 100%;
+  height: 50px;
+  margin-left: -10px;
+  padding: 10px;
+}
+
+/*pizza button*/
+.pizzabutton {
+  width: 100px;
+  margin-top: -50px;
+  padding-left: 400px;
+  perspective: 1000;
+}
+
+.pizzabutton:hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.pizzabutton, .front, .back {
+  width: 100px;
+  height: 100px;
+}
+
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+/*end pizza button*/
+
+/* STYLES PAGE 2 */
+.herd {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.herd ul {
+  list-style-type: none;
+}
+
+.herd li {
+  float: left;
+  height: 200px;
+  margin: 10px 20px 200px 50px;
+  width: 225px;
+  text-align: center;
+}
+
+.herd li img {
+  border-top: 20px solid #ad80bb;
+  border-bottom: 20px solid #9968a8;
+  border-left: 20px solid #a373b2;
+  border-right: 20px solid #8f5e9f;
+  border-radius: 50px;
+}
+
+.herd li p {
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+.tiny {
+  font-size: .5em;
+  line-height: 50%;
+}
+
+.note {
+  font-size: .6em;
+  background: #fdfb30;
+  color: #dd5b2e;
+  padding: 5px;
+}
+
+.button-round {
+  width: 30%;
+  background: #c096cd;
+  padding: 10px;
+  margin:30px auto;
+  border-radius: 50px;
+}
+
+.button-round a {
+  color: #8b00b2;
+  text-decoration: none;
+}
+
+.button-round:hover {
+  background: #dd5b2e;
+}
